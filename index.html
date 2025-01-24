@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website with a button</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #f4f4f9;
+    }
+
+    .c-button {
+      min-width: 100px;
+      font-family: inherit;
+      appearance: none;
+      border: 0;
+      border-radius: 5px;
+      background: #4676d7;
+      color: #fff;
+      padding: 8px 16px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    .c-button:hover {
+      background: #1d49aa;
+    }
+
+    .c-button:focus {
+      outline: none;
+      box-shadow: 0 0 0 4px #cbd6ee;
+    }
+  </style>
+</head>
+<body>
+  <h1></h1>
+  <button class="c-button">Don't touch me!</button>
+  <script src="script.js"></script>
+</body>
+</html>
